@@ -10,7 +10,7 @@ body {
     font-family: "Content", system-ui;
 }
 
-.container {
+.box1 {  
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -147,4 +147,89 @@ input[type="radio"] {
     color: #000;
     font-family: "Content", system-ui;
     font-size: 16px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #4A4947;
+    position:absolute;
+}
+.f-col{
+    width: 380px;
+    height: 250px;
+}
+.f-col .f-pic{
+    width: 200px;
+    height: 100px;
+    margin-top:10px ;
+    margin-left: 80px;
+}
+.f-col .f-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.f-col .address{
+    width: 380px;
+    height: auto;
+    /* background-color: burlywood; */
+    padding: 15px;
+    text-align: justify;
+}
+.f-col .address p{
+    font-size: 16px;
+    color: #fff;
+    font-family: "Content", system-ui;
+}
+.f-col .foot-menu{
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    margin: auto;
+}
+.foot-menu ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.foot-menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    transition: 0.5s;
+    font-family: "Content", system-ui;
+}
+.foot-menu ul li a:hover{
+    color:#f09819;
+}
+.f-col .sol{
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f-col .sol i{
+    color: #ffffff;
+    font-size: 30px;
+}
+.mine{
+    width: 100%;
+    padding: 20px 80px;
+    /* background-color: #D1E9F6; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.mine p{
+    font-family: "Content", system-ui;
+    color: #ffffff;
 }
